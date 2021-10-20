@@ -71,7 +71,7 @@ html{
 /*Home Section*/
 .home{
     display: flex;
-    background-image: linear-gradient(rgba(0,0,0,0.4),transparent),url(asset/img/DSC00862.JPG);
+    background-image: linear-gradient(rgba(0,0,0,0.4),transparent),url('asset/img/DSC00862.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
