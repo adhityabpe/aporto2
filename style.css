@@ -174,35 +174,7 @@ html{
     transform: scale(1.1);
     
 }
-.flip-pict{
-    width:83%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    cursor: pointer;
-    
-}
-.front-pict{
-    backface-visibility: hidden;
-    border-radius: 6px;
-}
-.back-pict{
-    position: absolute;
-    top: 0%;
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    text-align: center;
-    border-radius: 6px;
-}
-.back-pict h3{
-   font-family: monospace;
-   background-color: #193498;
-   color: #fff;
-   font-weight: 300;
-}
-.flip-pict:hover{
-    transform: rotateX(180deg);
-}
+
 /* all similiar content code */
 section{
     padding: 100px 0;
