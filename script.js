@@ -7,7 +7,7 @@ $(document).ready(function(){
             $('.navbar').removeClass('sticky')
         }
     })
-    
+    //TOGGLE BUTTON
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
